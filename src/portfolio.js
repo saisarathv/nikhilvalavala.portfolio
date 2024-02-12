@@ -18,7 +18,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Prathyu Dhanthala",
+  username: "Prathyusha Dhanthala",
   title: "Hi all, I'm Prathyusha Dhanthala",
   subTitle: emoji(
     // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java / Springboot / Reactjs / Nodejs and some other cool libraries and frameworks.\n"
