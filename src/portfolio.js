@@ -23,7 +23,7 @@ const greeting = {
   subTitle: emoji(
     // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java / Springboot / Reactjs / Nodejs and some other cool libraries and frameworks.\n"
     "Crafting Innovative Software Solutions that Solve Real-World Problems. \nSoftware Engineer by Day, Problem Solver by Nature"
-    ),
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1iQUNc0XZcBxwYZ10KYBQ8TntaAG9sCSd/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -46,16 +46,24 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Solution-Focused Full Stack Developer who transforms ideas into efficient code crafting scalable web applications ",
+  subTitle:
+    "Solution-Focused Full Stack Developer who transforms ideas into efficient code crafting scalable web applications ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Full-Stack Mastery: Proficient in ReactJS, Spring Boot, and Node.js for both frontend and backend development, with expertise in RESTful APIs and MVC architecture."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Cloud Proficiency: Skilled in AWS services like S3, EC2, and DynamoDB, along with Docker and Kubernetes for efficient deployment and scaling on cloud platforms."
     ),
-    emoji("⚡ Expertise in creating .NET applications for various purposes")
+    emoji(
+      "⚡ Agile Efficiency: Experienced in Agile methodologies and tools like Jira, contributing to successful project deliveries through sprint planning and daily scrums."
+    ),
+    emoji(
+      "⚡ Proficient in Python libraries (Pandas, NumPy, Scikit-learn) for data analysis, coupled with database expertise in MySQL, MongoDB, and Oracle."
+    ),
+    emoji(
+      "⚡ Innovative Problem-Solver: Demonstrated ability to tackle complex challenges and drive efficiency improvements in software development projects."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -70,14 +78,15 @@ const skillsSection = {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },{
+    },
+    {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
@@ -89,10 +98,10 @@ const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -135,10 +144,10 @@ const educationInfo = {
       descBullets: []
     },
     {
-      schoolName: "Jawaharlal Nehru Technological University - B V Raju Institute Of Technology",
+      schoolName:
+        "Jawaharlal Nehru Technological University - B V Raju Institute Of Technology",
       logo: require("./assets/images/jntu.png"),
-      subHeader:
-        "Bachelor of Science in ",
+      subHeader: "Bachelor of Science in ",
       duration: "July 2015 - June 2019",
       desc: "Ranked top 10% in the program.",
       descBullets: []
@@ -191,7 +200,7 @@ const workExperiences = {
         "Implemented Spring Boot caching in registration/ Login/ Profile Update forms reducing API’s response time by 20%.",
         "Incorporated Kafka queues into application for client-specific real-time updates, resulting in 20% faster financial processing.",
         " Spearheaded in optimization of database through enhancements on operations using advanced SQL CRUD queries, Joins,Triggers, and Stored Procedures) increasing query processing speed by 80%.",
-        "Engaged in Agile ceremonies, collaborating with cross-functional teams, delivering 90% of user stories in each sprint, and managing incidents through Jira, reducing issue backlog by 20%.",
+        "Engaged in Agile ceremonies, collaborating with cross-functional teams, delivering 90% of user stories in each sprint, and managing incidents through Jira, reducing issue backlog by 20%."
       ]
     },
     {
