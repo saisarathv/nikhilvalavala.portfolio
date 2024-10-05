@@ -5,13 +5,6 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
-  function openUrlInNewTab(url) {
-    if (!url) {
-      return;
-    }
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
 
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
@@ -65,19 +58,25 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    <p className="project-metrics">
+                      ⭐ {project.stars} Stars | <i className="fas fa-code-branch"></i> {project.forks} Forks
+                    </p>
+                    <p className="project-tech">
+                      <i className="fas fa-tools"></i> Technologies: {project.technologies.join(", ")}
+                    </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
-                            <span
+                            <a
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openUrlInNewTab(link.url)}
+                              className={`${isDark ? "dark-mode project-tag" : "project-tag"} project-button`}
+                              href={link.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
                             >
-                              {link.name}
-                            </span>
+                              <span className="project-button-inner">{link.name}</span>
+                            </a>
                           );
                         })}
                       </div>

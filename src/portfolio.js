@@ -1,73 +1,52 @@
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
-  username: "Prathyusha Dhanthala",
-  title: "Hi all, I'm Prathyusha Dhanthala",
+  username: "Nikhil Sai Sarath Valavala",
+  title: "Hi all, I'm Nikhil Valavala",
   subTitle: emoji(
-    // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java / Springboot / Reactjs / Nodejs and some other cool libraries and frameworks.\n"
-    "Crafting Innovative Software Solutions that Solve Real-World Problems. \nSoftware Engineer by Day, Problem Solver by Nature"
+    "A passionate Software Development Engineer 🚀 with 4 years of experience building microservices, full-stack web applications using Java, Spring Boot, React.js, AWS, and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1iQUNc0XZcBxwYZ10KYBQ8TntaAG9sCSd/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1SbsuJD_DgTLBuLcf0_t34ajhjs_Yfz1m/view?usp=sharing",
+  displayGreeting: true 
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/dhanthalaprat",
-  linkedin: "https://www.linkedin.com/in/prathyushadhanthala/",
-  gmail: "prathyushadhanthala@gmail.com",
-  gitlab: "",
-  facebook: "",
-  medium: "",
-  stackoverflow: "",
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/nikhilvalavala",
+  linkedin: "https://www.linkedin.com/in/nikhilvalavala/",
+  gmail: "nikhil.v@ajobguide.com",
+  display: true
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Solution-Focused Full Stack Developer who transforms ideas into efficient code crafting scalable web applications ",
+    "Experienced Software Development Engineer with expertise in full-stack development, microservices, and cloud technologies.",
   skills: [
     emoji(
-      "⚡ Full-Stack Mastery: Proficient in ReactJS, Spring Boot, and Node.js for both frontend and backend development, with expertise in RESTful APIs and MVC architecture."
+      "⚡ Expertise in front-end development with React.js, Redux, and building dynamic user interfaces."
     ),
     emoji(
-      "⚡ Cloud Proficiency: Skilled in AWS services like S3, EC2, and DynamoDB, along with Docker and Kubernetes for efficient deployment and scaling on cloud platforms."
+      "⚡ Skilled in creating production-ready microservices with Spring Boot and Spring MVC."
     ),
     emoji(
-      "⚡ Agile Efficiency: Experienced in Agile methodologies and tools like Jira, contributing to successful project deliveries through sprint planning and daily scrums."
+      "⚡ Proficient in AWS cloud infrastructure management, including EC2, S3, RDS, Lambda, and EKS."
     ),
     emoji(
-      "⚡ Proficient in Python libraries (Pandas, NumPy, Scikit-learn) for data analysis, coupled with database expertise in MySQL, MongoDB, and Oracle."
-    ),
-    emoji(
-      "⚡ Innovative Problem-Solver: Demonstrated ability to tackle complex challenges and drive efficiency improvements in software development projects."
+      "⚡ Experience in CI/CD pipeline integration using Maven, Gradle, Jenkins, Docker, and Kubernetes."
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-      https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -78,10 +57,6 @@ const skillsSection = {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -98,10 +73,6 @@ const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -115,10 +86,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -127,48 +94,64 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Northeastern University",
-      logo: require("./assets/images/neu_logo.png"),
+      schoolName: "University at Buffalo",
+      logo: require("./assets/images/buffalo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "January 2022 - December 2023",
-      desc: "Participated in the research of web dev applications. Took courses about Software Engineering, Web Security, Operating Systems",
+      duration: "January 2023 - May 2024",
+      desc: (
+        <>
+          Specialized in advanced topics including web development, software engineering, and deep learning. Focused on both theoretical foundations and practical applications in cutting-edge technologies.
+          <br />
+          Relevant Courses: Deep Learning, Computational Linguistics, Data Intensive Computing, and Introduction to Machine Learning.
+        </>
+      ),
       descBullets: []
     },
     {
-      schoolName:
-        "Jawaharlal Nehru Technological University - B V Raju Institute Of Technology",
-      logo: require("./assets/images/jntu.png"),
-      subHeader: "Bachelor of Science in ",
-      duration: "July 2015 - June 2019",
-      desc: "Ranked top 10% in the program.",
+      schoolName: "Vellore Institute of Technology",
+      logo: require("./assets/images/vit.jpg"),
+      subHeader: "Bachelor of Science in Computer Science and Engineering",
+      duration: "July 2017 - June 2021",
+      desc: (
+        <>
+          Graduated in the top 10% of the program with a strong focus on software development, IoT, and competitive programming.
+          <br />
+          Winner in the Category of IoT Software Model in the 4-day Make-n-Code-a-Thon (2020).
+        </>
+      ),
       descBullets: []
     }
   ]
 };
 
+
+
+
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design",
+      progressPercentage: "80%" 
     },
     {
-      Stack: "Backend development",
+      Stack: "Backend Development",
       progressPercentage: "90%"
     },
     {
+      Stack: "Cloud Infrastructure",
+      progressPercentage: "85%"
+    },
+    {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false
@@ -178,88 +161,97 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Graduate Assistant",
-      company: "Northeastern University",
-      companylogo: require("./assets/images/neu_logo.png"),
-      date: "September 2022 – December 2023",
-      desc: " ",
+      role: "Software Engineer",
+      company: "PNC Financial Services, NY",
+      companylogo: require("./assets/images/PNC.jpeg"),
+      date: "January 2024 – Present",
+      desc: "Developing microservices and APIs to enable scalable financial solutions with Spring Boot and GraphQL.",
       descBullets: [
-        "Instructed 20+ students in understanding and applying object-oriented solutions, implementing design patterns, creating well- documented Java solutions, justifying design decisions, generating documentation, designing unit tests with JUnit.",
-        "Developed Single Page App (SPA) student-discussion-forum using ReactJS, contributing to enhanced user engagement and interaction. Integrated Redux for state management, reducing server requests by 40% and improving application performance.",
-        "Implemented component-based architecture, leading to a 50% reduction in code duplication and improved maintainability."
+        "Integrated Java Spring Boot APIs with React.js using Redux and Context API, improving data flow and state management.",
+        "Wrote 20+ automated tests using JUnit to enhance API reliability and reduce manual testing efforts.",
+        "Automated AWS application deployments using CodeDeploy and CodePipeline, reducing deployment time by 30%.",
+        "Enhanced CI/CD pipeline using Kubernetes and Jenkins, cutting deployment time by 50%.",
+        "Designed and implemented GraphQL APIs, reducing network traffic by 30% and improving response times."
       ]
     },
     {
-      role: "Software engineer",
-      company: "Tata Consultancy Services",
-      companylogo: require("./assets/images/tcs.png"),
-      date: "August 2019 – January 2022",
-      desc: "Developed and managed full-stack banking application using Java, Spring Boot, React,  REST APIs boosting productivity and UI.",
+      role: "Software Engineer II",
+      company: "Western Union, India",
+      companylogo: require("./assets/images/WU.png"),
+      date: "June 2022 – January 2023",
+      desc: "Optimized API performance and implemented secure, scalable RESTful services for web and mobile apps.",
       descBullets: [
-        "Migrated and refactored legacy Java code to optimized Spring boot applications with Docker & Kubernetes deployment which boosted efficiency by load-balancing traffic ensuring maintainability, scalability, cutting down deployment time by 60%.",
-        "Implemented Spring Boot caching in registration/ Login/ Profile Update forms reducing API’s response time by 20%.",
-        "Incorporated Kafka queues into application for client-specific real-time updates, resulting in 20% faster financial processing.",
-        " Spearheaded in optimization of database through enhancements on operations using advanced SQL CRUD queries, Joins,Triggers, and Stored Procedures) increasing query processing speed by 80%.",
-        "Engaged in Agile ceremonies, collaborating with cross-functional teams, delivering 90% of user stories in each sprint, and managing incidents through Jira, reducing issue backlog by 20%."
+        "Enhanced message delivery by 20% through persistent messaging and failover with ActiveMQ.",
+        "Developed and optimized REST APIs that integrated with AWS RDS databases, delivering real-time data to clients.",
+        "Packaged applications into Docker containers, improving scalability and portability across environments.",
+        "Automated release management, resulting in a 30% increase in deployment frequency.",
+        "Migrated MySQL database to MongoDB, improving application responsiveness and scalability."
       ]
     },
     {
       role: "Software Engineer",
-      company: "MAQ Software",
-      companylogo: require("./assets/images/maq.png"),
-      date: "January 2019 – November 2021",
-      desc: "",
+      company: "Zensar Technologies, India",
+      companylogo: require("./assets/images/znsr.jpg"),
+      date: "January 2020 – May 2022",
+      desc: "Built single-page applications (SPA) and backend services to deliver seamless user experiences.",
       descBullets: [
-        "Integrated REST APIs and third-party APIs into application expanding functionality with factory design pattern reducing data retrieval times by 30%.",
-        "Implemented form handling and data validation on frontend, reducing data input errors by 25% and improving data quality."
+        "Developed SPAs using React.js, binding data efficiently with server-side services.",
+        "Created reusable RESTful APIs with Spring WebFlux, improving request throughput by 30%.",
+        "Utilized Docker for containerization, ensuring smooth deployment across various environments.",
+        "Collaborated with backend developers to troubleshoot and optimize REST and SOAP APIs using SoapUI.",
+        "Monitored AWS resources, including EC2, Lambda, and SQS, through CloudWatch to ensure high availability."
       ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some of the key projects I have worked on.",
   projects: [
     {
-      image: require("./assets/images/tcs.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Repochat",
+      projectDesc: "AI-powered GitHub repository chatbot leveraging Code Llama 7B-Instruct LLM and RAG for seamless interaction.",
+      stars: '250+',
+      forks: '45+',
+      technologies: ["Python", "LangChain", "Vector DB", "Retrieval Augmented Generation"],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "GitHub Repo",
+          url: "https://github.com/nikhilvalavala/repochat"
+        },
+        {
+          name: "Live Demo",
+          url: "https://repochat.streamlit.app/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Multivoice",
+      projectDesc: "Enhances the viewing experience of foreign-language media by providing personalized voice dubs through advanced voice cloning and text-to-speech technologies",
+      stars: 22,
+      forks: 7,
+      technologies: ["Python", "Text to Speech", "Voice Cloning", "LLM Translation"],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "GitHub Repo",
+          url: "https://github.com/nikhilvalavala/multivoice"
+        },
+        {
+          name: "Live Demo",
+          url: "https://multivoice.streamlit.app/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -316,10 +308,8 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
-
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
@@ -342,8 +332,6 @@ const blogSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
-
-// Talks Sections
 
 const talkSection = {
   title: "TALKS",
@@ -377,20 +365,17 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "",
-  email_address: "prathyushadhanthala@gmail.com"
+  subtitle: "Feel free to reach out to discuss projects or job opportunities.",
+  number: "+1 945 237 2565",
+  email_address: "nikhil.v@ajobguide.com"
 };
-
-// Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "twitter",
+  display: false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,

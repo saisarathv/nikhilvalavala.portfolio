@@ -64,6 +64,12 @@
   gap: 1rem 1rem;
 }
 
+.project-card-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .project-card-footer span.project-tag {
   background: $buttonColor;
   color: $lightBackground3;
@@ -82,9 +88,49 @@
   transition: 0.2s ease-in;
 }
 
+.project-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  width: 120px;
+  
+  &.dark-mode {
+    background-color: #6e5494;
+    color: #ffffff;
+    
+    &:hover {
+      background-color: #8a69b8;
+    }
+  }
+  
+  &:not(.dark-mode) {
+    background-color: #4a90e2;
+    color: white;
+    
+    &:hover {
+      background-color: #6ab7f9;
+    }
+  }
+}
+
+.project-button-inner {
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;
     text-align: center;
   }
+}
+
+.project-metrics,
+.project-tech,
+.project-duration,
+.project-impact {
+  font-size: 14px;
+  color: #666;
+  margin: 4px 0;
 }
