@@ -165,14 +165,13 @@ const workExperiences = {
       company: "CVS Health, NY",
       companylogo: require("./assets/images/cvs.jpg"),
       date: "January 2024 – Present",
-      desc: "Driving innovation in healthcare technology by developing scalable, efficient, and user-centric solutions. Specializing in API performance optimization, document management tools, and advanced analytics dashboards to empower users and enhance operational workflows.",
-      
+      desc: "Developing scalable, user-focused healthcare solutions by optimizing APIs and creating advanced tools.",
       descBullets: [
-        "Developed a user interface to enable the discovery of medical and prescription data, incorporating userfriendly querying capabilities.",
-        "Enhanced Spring Boot REST API performance through caching strategies and asynchronous processing, resulting in a 2x increase in API throughput for a real-time application.",
-        "Designed and implemented a document review tool, allowing users to upload PDFs, search using a DCN number, and highlight relevant areas retrieved via API.",
-        "Collaborated on a spike dashboard for business purposes, enabling graphical trend analysis of procedure amounts with filtering options based on plan sponsor and patient information.",
-        "Automated application deployment and testing pipelines using Kubernetes and CI/CD tools (Jenkins, GitHub), reduced deployment time by 50%, and improved application reliability."
+        "Built intuitive UI for exploring medical and prescription data.",
+        "Boosted API throughput by 2x with caching and async processing.",
+        "Developed a document review tool with PDF search and highlights.",
+        "Designed dashboards for trend analysis with customizable filters.",
+        "Automated deployments with Kubernetes and CI/CD, cutting time by 50%."
       ]
     },
     {
@@ -180,13 +179,13 @@ const workExperiences = {
       company: "Western Union, India",
       companylogo: require("./assets/images/WU.png"),
       date: "June 2022 – January 2023",
-      desc: "Engineered secure and reliable financial services by optimizing backend APIs and implementing microservice architecture. Focused on system upgrades, seamless database integration, and asynchronous communication for improved transaction processing and scalability.",
+      desc: "Enhanced backend performance and scalability with microservices and secure APIs.",
       descBullets: [
-        "Developed and implemented backend functionality for total amount calculation in money transfers.",
-        "Implemented polling mechanisms for payment calls to ensure reliable and consistent transaction processing.",
-        "Integrated with external systems and databases, utilizing SQL to fetch and store user and money transferrelated data across multiple replicated databases.",
-        "Collaborated with multiple teams and stakeholders on the system-wide upgrade of the organization’s codebase from AngularJS to Angular 12.",
-        "Engineered and developed APIs leveraging microservice architecture, utilizing Spring Boot for efficient development and JMS for asynchronous communication with ActiveMQ as the message broker."
+        "Developed backend for money transfer calculations.",
+        "Ensured consistent transactions with polling mechanisms.",
+        "Integrated external systems and optimized data storage.",
+        "Upgraded codebase from AngularJS to Angular 12.",
+        "Built Spring Boot APIs with JMS and ActiveMQ for communication."
       ]
     },
     {
@@ -194,17 +193,18 @@ const workExperiences = {
       company: "Zensar Technologies, India",
       companylogo: require("./assets/images/znsr.jpg"),
       date: "January 2020 – May 2022",
-      desc: "Delivered high-performance single-page applications (SPAs) and backend services to streamline user experiences. Leveraged modern frameworks and databases to enhance application responsiveness, automate processes, and ensure quality software delivery.",
+      desc: "Created SPAs and backend services for seamless user experiences.",
       descBullets: [
-        "Industrialized user-friendly front-end components using Figma, HTML, and CSS, and incorporated React hooks for functional component state management, ensuring smooth user experiences.",
-        "Automated data persistence with Spring MVC and Hibernate, reducing manual SQL queries by 30%.",
-        "Designed reusable RESTful services with Spring REST, ensuring efficient client interactions.",
-        "Enhanced application response time by 30% using Amazon DynamoDB for high-performance NoSQL data access.",
-        "Contributed to SDLC phases, including requirements gathering, code reviews, and Agile-driven quality assurance."
+        "Developed SPAs with React hooks and modern UI tools.",
+        "Automated data handling with Spring MVC and Hibernate.",
+        "Designed reusable REST APIs for efficient interactions.",
+        "Improved response time by 30% using DynamoDB.",
+        "Streamlined SDLC with Agile practices and quality reviews."
       ]
     }
   ]
 };
+
 
 
 const openSource = {
