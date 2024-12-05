@@ -18,14 +18,14 @@ const greeting = {
     "A passionate Software Development Engineer 🚀 with 4 years of experience building microservices, full-stack web applications using Java, Spring Boot, React.js, AWS, and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1SbsuJD_DgTLBuLcf0_t34ajhjs_Yfz1m/view?usp=sharing",
+    "https://drive.google.com/file/d/1LMSGJlHVL5vZoq3UCVbGqi_v3lKkMypx/view?usp=sharing",
   displayGreeting: true 
 };
 
 const socialMediaLinks = {
   github: "https://github.com/nikhilvalavala",
   linkedin: "https://www.linkedin.com/in/nikhilvalavala/",
-  gmail: "nikhil.v@ajobguide.com",
+  gmail: "nikhilsaisarathvalavala1@gmail.com",
   display: true
 };
 
@@ -147,11 +147,11 @@ const techStack = {
     },
     {
       Stack: "Cloud Infrastructure",
-      progressPercentage: "85%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false
@@ -162,16 +162,17 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "PNC Financial Services, NY",
-      companylogo: require("./assets/images/PNC.jpeg"),
+      company: "CVS Health, NY",
+      companylogo: require("./assets/images/cvs.jpg"),
       date: "January 2024 – Present",
-      desc: "Developing microservices and APIs to enable scalable financial solutions with Spring Boot and GraphQL.",
+      desc: "Driving innovation in healthcare technology by developing scalable, efficient, and user-centric solutions. Specializing in API performance optimization, document management tools, and advanced analytics dashboards to empower users and enhance operational workflows.",
+      
       descBullets: [
-        "Integrated Java Spring Boot APIs with React.js using Redux and Context API, improving data flow and state management.",
-        "Wrote 20+ automated tests using JUnit to enhance API reliability and reduce manual testing efforts.",
-        "Automated AWS application deployments using CodeDeploy and CodePipeline, reducing deployment time by 30%.",
-        "Enhanced CI/CD pipeline using Kubernetes and Jenkins, cutting deployment time by 50%.",
-        "Designed and implemented GraphQL APIs, reducing network traffic by 30% and improving response times."
+        "Developed a user interface to enable the discovery of medical and prescription data, incorporating userfriendly querying capabilities.",
+        "Enhanced Spring Boot REST API performance through caching strategies and asynchronous processing, resulting in a 2x increase in API throughput for a real-time application.",
+        "Designed and implemented a document review tool, allowing users to upload PDFs, search using a DCN number, and highlight relevant areas retrieved via API.",
+        "Collaborated on a spike dashboard for business purposes, enabling graphical trend analysis of procedure amounts with filtering options based on plan sponsor and patient information.",
+        "Automated application deployment and testing pipelines using Kubernetes and CI/CD tools (Jenkins, GitHub), reduced deployment time by 50%, and improved application reliability."
       ]
     },
     {
@@ -179,13 +180,13 @@ const workExperiences = {
       company: "Western Union, India",
       companylogo: require("./assets/images/WU.png"),
       date: "June 2022 – January 2023",
-      desc: "Optimized API performance and implemented secure, scalable RESTful services for web and mobile apps.",
+      desc: "Engineered secure and reliable financial services by optimizing backend APIs and implementing microservice architecture. Focused on system upgrades, seamless database integration, and asynchronous communication for improved transaction processing and scalability.",
       descBullets: [
-        "Enhanced message delivery by 20% through persistent messaging and failover with ActiveMQ.",
-        "Developed and optimized REST APIs that integrated with AWS RDS databases, delivering real-time data to clients.",
-        "Packaged applications into Docker containers, improving scalability and portability across environments.",
-        "Automated release management, resulting in a 30% increase in deployment frequency.",
-        "Migrated MySQL database to MongoDB, improving application responsiveness and scalability."
+        "Developed and implemented backend functionality for total amount calculation in money transfers.",
+        "Implemented polling mechanisms for payment calls to ensure reliable and consistent transaction processing.",
+        "Integrated with external systems and databases, utilizing SQL to fetch and store user and money transferrelated data across multiple replicated databases.",
+        "Collaborated with multiple teams and stakeholders on the system-wide upgrade of the organization’s codebase from AngularJS to Angular 12.",
+        "Engineered and developed APIs leveraging microservice architecture, utilizing Spring Boot for efficient development and JMS for asynchronous communication with ActiveMQ as the message broker."
       ]
     },
     {
@@ -193,13 +194,13 @@ const workExperiences = {
       company: "Zensar Technologies, India",
       companylogo: require("./assets/images/znsr.jpg"),
       date: "January 2020 – May 2022",
-      desc: "Built single-page applications (SPA) and backend services to deliver seamless user experiences.",
+      desc: "Delivered high-performance single-page applications (SPAs) and backend services to streamline user experiences. Leveraged modern frameworks and databases to enhance application responsiveness, automate processes, and ensure quality software delivery.",
       descBullets: [
-        "Developed SPAs using React.js, binding data efficiently with server-side services.",
-        "Created reusable RESTful APIs with Spring WebFlux, improving request throughput by 30%.",
-        "Utilized Docker for containerization, ensuring smooth deployment across various environments.",
-        "Collaborated with backend developers to troubleshoot and optimize REST and SOAP APIs using SoapUI.",
-        "Monitored AWS resources, including EC2, Lambda, and SQS, through CloudWatch to ensure high availability."
+        "Industrialized user-friendly front-end components using Figma, HTML, and CSS, and incorporated React hooks for functional component state management, ensuring smooth user experiences.",
+        "Automated data persistence with Spring MVC and Hibernate, reducing manual SQL queries by 30%.",
+        "Designed reusable RESTful services with Spring REST, ensuring efficient client interactions.",
+        "Enhanced application response time by 30% using Amazon DynamoDB for high-performance NoSQL data access.",
+        "Contributed to SDLC phases, including requirements gathering, code reviews, and Agile-driven quality assurance."
       ]
     }
   ]
@@ -366,8 +367,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Feel free to reach out to discuss projects or job opportunities.",
-  number: "+1 945 237 2565",
-  email_address: "nikhil.v@ajobguide.com"
+  number: "+1 716 588 0567",
+  email_address: "nikhilsaisarathvalavala1@gmail.com"
 };
 
 const twitterDetails = {
