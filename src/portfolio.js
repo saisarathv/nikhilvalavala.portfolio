@@ -190,8 +190,8 @@ const workExperiences = {
     },
     {
       role: "Software Engineer",
-      company: "Zensar Technologies, India",
-      companylogo: require("./assets/images/znsr.jpg"),
+      company: "TopHat Software Technologies,India",
+      companylogo: require("./assets/images/tophat.jpeg"),
       date: "January 2020 – May 2022",
       desc: "Created SPAs and backend services for seamless user experiences.",
       descBullets: [
