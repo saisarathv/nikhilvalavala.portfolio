@@ -12,19 +12,19 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nikhil Sai Sarath Valavala",
-  title: "Hi all, I'm Nikhil Valavala",
+  username: "Sai Sarath",
+  title: "Hi all, I'm Sai Sarath",
   subTitle: emoji(
-    "A passionate Software Development Engineer 🚀 with 4 years of experience building microservices, full-stack web applications using Java, Spring Boot, React.js, AWS, and more."
+    "A passionate Software Development Engineer 🚀 with 3 years of experience building microservices, full-stack web applications using Java, Spring Boot, React.js, AWS, and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1LMSGJlHVL5vZoq3UCVbGqi_v3lKkMypx/view?usp=sharing",
+    "https://drive.google.com/file/d/1Vh4x92LpPksxo0SNaFB10T8PpeC5zdef/view?usp=sharing",
   displayGreeting: true 
 };
 
 const socialMediaLinks = {
-  github: "https://github.com/nikhilvalavala",
-  linkedin: "https://www.linkedin.com/in/nikhilvalavala/",
+  github: "https://github.com/saisarathv",
+  linkedin: "https://www.linkedin.com/in/saisarathv/",
   gmail: "nikhilsaisarathvalavala1@gmail.com",
   display: true
 };
@@ -32,21 +32,22 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Experienced Software Development Engineer with expertise in full-stack development, microservices, and cloud technologies.",
+    "Experienced Software Development Engineer specializing in delivering scalable full-stack solutions, microservices, and cloud-driven architectures.",
   skills: [
     emoji(
-      "⚡ Expertise in front-end development with React.js, Redux, and building dynamic user interfaces."
+      "⚡ Mastery in building interactive and dynamic user interfaces with React.js and Redux for optimized state management."
     ),
     emoji(
-      "⚡ Skilled in creating production-ready microservices with Spring Boot and Spring MVC."
+      "⚡ Proficient in designing and implementing production-grade microservices using Spring Boot and Spring MVC."
     ),
     emoji(
-      "⚡ Proficient in AWS cloud infrastructure management, including EC2, S3, RDS, Lambda, and EKS."
+      "⚡ Expertise in AWS cloud infrastructure, including EC2, S3, RDS, Lambda, and EKS, for scalable and efficient deployments."
     ),
     emoji(
-      "⚡ Experience in CI/CD pipeline integration using Maven, Gradle, Jenkins, Docker, and Kubernetes."
-    )
+      "⚡ Advanced knowledge of CI/CD pipelines leveraging Maven, Gradle, Jenkins, Docker, and Kubernetes for streamlined releases."
+    ),
   ],
+};
 
   softwareSkills: [
     {
@@ -118,7 +119,7 @@ const educationInfo = {
       schoolName: "Vellore Institute of Technology",
       logo: require("./assets/images/vit.jpg"),
       subHeader: "Bachelor of Science in Computer Science and Engineering",
-      duration: "July 2017 - June 2021",
+      duration: "July 2017 - May 2021",
       desc: (
         <>
           Graduated in the top 10% of the program with a strong focus on software development, IoT, and competitive programming.
@@ -151,12 +152,11 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false
 };
-
 const workExperiences = {
   display: true,
   experience: [
@@ -165,45 +165,46 @@ const workExperiences = {
       company: "CVS Health, NY",
       companylogo: require("./assets/images/cvs.jpg"),
       date: "January 2024 – Present",
-      desc: "Developing scalable, user-focused healthcare solutions by optimizing APIs and creating advanced tools.",
+      desc: "Contributed to improving healthcare efficiency by designing scalable solutions.",
       descBullets: [
-        "Built intuitive UI for exploring medical and prescription data.",
-        "Boosted API throughput by 2x with caching and async processing.",
-        "Developed a document review tool with PDF search and highlights.",
-        "Designed dashboards for trend analysis with customizable filters.",
-        "Automated deployments with Kubernetes and CI/CD, cutting time by 50%."
+        "Developed a React.js-based platform using Redux to optimize prescription query workflows, reducing query processing time by 35%.",
+        "Enhanced Spring Boot REST API performance with caching and asynchronous processing, achieving 150ms latency during peak loads.",
+        "Created secure data interfaces for medical and prescription data access, supporting document uploads, API-driven search, and highlighting capabilities.",
+        "Implemented secure authentication mechanisms using JWT, OAuth, and LDAP, ensuring data protection across 10+ healthcare applications.",
+        "Automated deployment pipelines using Kubernetes and AWS ECS, reducing deployment time by 50% and improving system uptime."
       ]
     },
     {
       role: "Software Engineer II",
       company: "Western Union, India",
       companylogo: require("./assets/images/WU.png"),
-      date: "June 2022 – January 2023",
-      desc: "Enhanced backend performance and scalability with microservices and secure APIs.",
+      date: "June 2022 – December 2022",
+      desc: "Enhanced the efficiency and reliability of payment systems through backend improvements.",
       descBullets: [
-        "Developed backend for money transfer calculations.",
-        "Ensured consistent transactions with polling mechanisms.",
-        "Integrated external systems and optimized data storage.",
-        "Upgraded codebase from AngularJS to Angular 12.",
-        "Built Spring Boot APIs with JMS and ActiveMQ for communication."
+        "Redesigned backend APIs using Spring Boot, reducing transaction processing time by 25%, and enabling faster settlements for over 500,000 monthly transactions.",
+        "Developed REST APIs with polling mechanisms to provide real-time transaction status updates, reducing escalations by 15%.",
+        "Replaced batch processing with Apache Kafka for real-time event streaming, increasing system responsiveness by 30%.",
+        "Optimized API performance using Postman and Grafana, supporting 100,000+ daily requests and improving transaction reliability.",
+        "Implemented robust logging and monitoring to identify bottlenecks, increasing transaction completion rates by 20%."
       ]
     },
     {
-      role: "Software Engineer",
-      company: "TopHat Software Technologies,India",
+      role: "Junior Software Engineer",
+      company: "TopHat Software Technologies, India",
       companylogo: require("./assets/images/tophat.jpeg"),
-      date: "January 2020 – May 2022",
-      desc: "Created SPAs and backend services for seamless user experiences.",
+      date: "January 2021 – May 2022",
+      desc: "Developed efficient tools and workflows for claims management and fraud prevention.",
       descBullets: [
-        "Developed SPAs with React hooks and modern UI tools.",
-        "Automated data handling with Spring MVC and Hibernate.",
-        "Designed reusable REST APIs for efficient interactions.",
-        "Improved response time by 30% using DynamoDB.",
-        "Streamlined SDLC with Agile practices and quality reviews."
+        "Built a document upload system in React.js integrated with Spring Boot, reducing claims validation time by 40%.",
+        "Migrated legacy claims data to Amazon DynamoDB, optimizing schema design to achieve 150ms retrieval latency.",
+        "Developed fraud detection workflows using DynamoDB Streams and Spring Boot, reducing fraudulent claims by 20%.",
+        "Enhanced API reliability to 99.5% by debugging and optimizing claims submission workflows.",
+        "Contributed to Agile development practices by implementing automated pipelines and conducting regular code reviews."
       ]
     }
   ]
 };
+
 
 
 
